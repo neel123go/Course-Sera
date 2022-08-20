@@ -1,18 +1,25 @@
+import { Route, Routes } from "react-router-dom";
 import Banner from "./Pages/Banner/Banner";
 import Home from "./Pages/Home/Home";
+import Login from "./Pages/LoginRegister/Login/Login";
+import Mission from "./Pages/Mission/Mission";
+import Services from "./Pages/Services/Services";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
+import SuccessfulStudents from "./Pages/SuccessfulStudents/SuccessfulStudents";
 
 function App() {
   return (
     <div className="mb-40">
-      <div className="h-[8vh]">
-        <Header />
-      </div>
-      <div className="md:py-32 py-5 mt-5 bg-primary">
-        <Banner />
-      </div>
-      <Home />
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/mission" element={<Mission />} />
+        <Route path="/successfulstudents" element={<SuccessfulStudents />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
       <Footer />
     </div>
   );

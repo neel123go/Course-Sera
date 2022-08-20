@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
 import Mission from '../Mission/Mission';
 import Services from '../Services/Services';
 import SuccessfulStudents from '../SuccessfulStudents/SuccessfulStudents';
@@ -6,13 +7,10 @@ import SuccessfulStudents from '../SuccessfulStudents/SuccessfulStudents';
 const Home = () => {
     return (
         <>
-            <div className='md:px-20 px-2'>
-                <Services />
-            </div>
+            <Banner />
+            <Services />
             <Mission />
-            <div className='md:px-10 px-2'>
-                <SuccessfulStudents />
-            </div>
+            <SuccessfulStudents />
         </>
     )
 }

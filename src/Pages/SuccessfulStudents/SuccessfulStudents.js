@@ -10,11 +10,11 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Pagination } from "swiper";
 
 const SuccessfulStudents = () => {
     return (
-        <div className="py-20">
+        <div className="pb-20 md:px-10 px-2">
             <div className="md:px-10 px-2">
                 <h1 className='md:text-4xl text-4xl font-bold text-primary'>Our Successful Students</h1>
                 <div className="divider bg-secondary rounded-md h-1 w-1/3"></div>
@@ -44,11 +44,11 @@ const SuccessfulStudents = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div class="w-96 h-82 bg-base-100 border border-secondary shadow-xl">
-                        <div class="card-body">
+                    <div className="w-96 h-82 bg-base-100 border border-secondary shadow-xl">
+                        <div className="card-body">
                             <div className="text-center">
-                                <div class="avatar">
-                                    <div class="w-[65px] h-[65px] rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">
+                                <div className="avatar">
+                                    <div className="w-[65px] h-[65px] rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">
                                         <img src="https://randomuser.me/api/portraits/men/59.jpg" />
                                     </div>
                                 </div>
@@ -62,11 +62,11 @@ const SuccessfulStudents = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="w-96 h-82 bg-base-100 border border-secondary shadow-xl">
-                        <div class="card-body">
+                    <div className="w-96 h-82 bg-base-100 border border-secondary shadow-xl">
+                        <div className="card-body">
                             <div className="text-center">
-                                <div class="avatar">
-                                    <div class="w-[65px] h-[65px] rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">
+                                <div className="avatar">
+                                    <div className="w-[65px] h-[65px] rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">
                                         <img src="https://randomuser.me/api/portraits/men/89.jpg" />
                                     </div>
                                 </div>
@@ -80,11 +80,11 @@ const SuccessfulStudents = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div class="w-96 h-82 bg-base-100 border border-secondary shadow-xl">
-                        <div class="card-body">
+                    <div className="w-96 h-82 bg-base-100 border border-secondary shadow-xl">
+                        <div className="card-body">
                             <div className="text-center">
-                                <div class="avatar">
-                                    <div class="w-[65px] h-[65px] rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">
+                                <div className="avatar">
+                                    <div className="w-[65px] h-[65px] rounded-full ring ring-accent ring-offset-base-100 ring-offset-2">
                                         <img src="https://randomuser.me/api/portraits/women/74.jpg" />
                                     </div>
                                 </div>
