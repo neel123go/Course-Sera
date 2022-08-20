@@ -1,10 +1,14 @@
 import React from 'react';
+import Mission from '../Mission/Mission';
 import Services from '../Services/Services';
 
 const Home = () => {
     return (
         <>
-            <Services />
+            <div className='px-20'>
+                <Services />
+            </div>
+            <Mission />
         </>
     )
 }

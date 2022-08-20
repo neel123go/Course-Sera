@@ -9,15 +9,13 @@ function App() {
         <div className="h-[8vh]">
           <Header />
         </div>
-        <div className="h-[87vh] bg-primary">
+        <div className="h-[90vh] bg-primary">
           <Banner />
         </div>
 
       </div>
 
-      <div className="px-20">
-        <Home />
-      </div>
+      <Home />
     </div>
   );
 }
