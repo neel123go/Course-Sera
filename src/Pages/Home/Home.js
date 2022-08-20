@@ -6,11 +6,11 @@ import SuccessfulStudents from '../SuccessfulStudents/SuccessfulStudents';
 const Home = () => {
     return (
         <>
-            <div className='px-20'>
+            <div className='md:px-20 px-2'>
                 <Services />
             </div>
             <Mission />
-            <div className='px-10'>
+            <div className='md:px-10 px-2'>
                 <SuccessfulStudents />
             </div>
         </>

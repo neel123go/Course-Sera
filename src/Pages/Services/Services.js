@@ -9,7 +9,7 @@ const Services = () => {
         <div className='mt-20'>
             <h1 className='text-4xl font-bold text-primary'>Our Courses / Services</h1>
             <div className="divider bg-secondary rounded-md h-1 w-1/3"></div>
-            <div className='mt-16 flex justify-between gap-5'>
+            <div className='mt-16 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-between gap-5'>
 
                 <div class="bg-base-100 shadow-xl">
                     <figure><img src={Img1} className="w-[100%]" alt="Shoes" /></figure>
