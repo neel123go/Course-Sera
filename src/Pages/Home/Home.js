@@ -1,6 +1,7 @@
 import React from 'react';
 import Mission from '../Mission/Mission';
 import Services from '../Services/Services';
+import SuccessfulStudents from '../SuccessfulStudents/SuccessfulStudents';
 
 const Home = () => {
     return (
@@ -9,6 +10,9 @@ const Home = () => {
                 <Services />
             </div>
             <Mission />
+            <div className='px-10'>
+                <SuccessfulStudents />
+            </div>
         </>
     )
 }
