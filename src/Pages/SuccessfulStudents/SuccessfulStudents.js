@@ -14,7 +14,7 @@ import { Pagination } from "swiper";
 
 const SuccessfulStudents = () => {
     return (
-        <div className="pb-20 md:px-10 px-2">
+        <div className="py-10 md:px-10 px-2">
             <div className="md:px-10 px-2">
                 <h1 className='md:text-4xl text-4xl font-bold text-primary'>Our Successful Students</h1>
                 <div className="divider bg-secondary rounded-md h-1 w-1/3"></div>
